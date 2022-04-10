@@ -5,7 +5,7 @@ import { useAlert } from 'react-alert'
 
 const Register = () => {
 
-  const baseUrl = "http://localhost:5000"
+  const baseUrl = "http://10.10.0.117:5000"
 
     const [name, setUserName] = useState('')
 const [email, setEmail] = useState('')

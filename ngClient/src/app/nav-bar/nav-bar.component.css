@@ -1,0 +1,10 @@
+.containerr2 {
+    max-width: 400px;
+    border-radius: 5px;
+  }
+  .center_div{
+ margin: auto;
+    width:50% ;/* value of your choice which suits your alignment */
+    height: 30px;
+  }
+

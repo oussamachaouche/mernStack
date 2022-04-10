@@ -1,0 +1,85 @@
+<div class="divGlob ">
+
+  <div class=" border border-5   center_div  bg-transparent"  >
+
+    <form class='add-form ' >
+      <div class="divmargin">
+      <div class="row mb-3 ">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+        <div class="col-sm-10">
+          <input type="email" class="form-control" id="inputEmail3">
+        </div>
+      </div>
+      <div class="row mb-3">
+        <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+        <div class="col-sm-10">
+          <input type="password" class="form-control" id="inputPassword3">
+        </div>
+      </div>
+    </div>
+      <div class="d-grid gap-2 col-6 divmargin mx-auto">
+      <button type="submit"  class="btn btn-primary fas fa-download ms-2">Sign in</button>
+    </div>
+    </form>
+
+    </div>
+</div>
+
+
+
+
+
+<div class = 'row m-0 w-100'>
+  <div class = 'col-md-4 offset-4 mt-5'>
+      <h4>Login</h4>
+      <form #myform = "ngForm" (ngSubmit) = "oussama(myform)" >
+        <div class = 'form-group'>
+          <input class = 'form-control' type = "text" name = "name" placeholder = "Username" ngModel>
+      </div>
+          <div class = 'form-group'>
+              <input class = 'form-control' type = "text" name = "email" placeholder = "Username" ngModel>
+          </div>
+
+          <div class = 'form-group'>
+              <input class = 'form-control' type = "password" name = "password" placeholder = "Password" ngModel>
+          </div>
+          <input class= 'btn btn-outline-info' type = "submit" value = "Login">
+      </form>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class = 'row m-0 w-100'>
+  <div class = 'col-md-4 offset-4 mt-5'>
+      <h4>Register</h4>
+      <form #myform = "ngForm" (ngSubmit) = "oussama(myform)" >
+        <div class = 'form-group'>
+          <input class = 'form-control' type = "text" name = "name" placeholder = "Username" ngModel>
+      </div>
+          <div class = 'form-group'>
+              <input class = 'form-control' type = "text" name = "email" placeholder = "Username" ngModel>
+          </div>
+
+          <div class = 'form-group'>
+              <input class = 'form-control' type = "password" name = "password" placeholder = "Password" ngModel>
+          </div>
+          <input class= 'btn btn-outline-info' type = "submit" value = "Register">
+      </form>
+  </div>
+  <div class = 'col-md-4 offset-4 mt-5'>
+      <h5>You are logged in</h5>
+  </div>
+</div>
+

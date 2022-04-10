@@ -1,8 +1,11 @@
-import React from 'react';
-import { useLocation,Link,NavLink } from 'react-router-dom';
+
+import {NavLink } from 'react-router-dom';
 const NavBar = () => {
-  const location = useLocation()
+  
+
+
  // className={`nav-link ${location.pathname ==='/login' ? "active" : ""}`}
+
   return <div>
 
 <nav className="navbar navbar-expand-sm bg-dark navbar-dark ">
@@ -18,7 +21,7 @@ const NavBar = () => {
              <NavLink className='nav-link' to={"/login"}>Login</NavLink>
           </li>
        </ul>
-
+       
     </div>
     </nav>
 

@@ -8,7 +8,7 @@ function TaskDetails() {
     const[task, setTask] = useState({})
     //const[error, setError] = useState(null)
 
-    const baseUrl = "http://192.168.43.54:5000"
+    const baseUrl = "http://localhost:5000"
     const params = useParams()
     const navigate = useNavigate()
     const {pathname} = useLocation()

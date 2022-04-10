@@ -21,7 +21,7 @@ import Footer from './Component/tasksComponent/Footer'
 function App() {
  //header tasks properties
  //const location = useLocation()
- const baseUrl = "http://192.168.43.54:5000"
+ const baseUrl = "http://10.10.0.117:5000"
   const title = "My tasks";
   const [showAddTask,setShowAddTask] = useState(false);
 // tasks array state
